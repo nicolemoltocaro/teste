@@ -78,10 +78,10 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
     /*border: solid 1px; remover depois (linha guia)*/
 }
 
-#nav #nav-grande
+/*#nav #nav-grande
 {
    width: 247px;
-/*   margin-left: 40px;*/
+   margin-left: 40px;
    padding: 0px;
    height: 253px;
    float: left;
@@ -104,7 +104,7 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
 #nav #nav-grande a
 {
     float: right;
-}
+}*/
 
 /*#nav #nav-grande a:hover
 {
@@ -112,7 +112,7 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
     color: black;
 }*/
 
-#nav .nav-pequeno 
+#nav .nav-primeiralinha 
 {
     width: 247px;
     float: left;
@@ -120,34 +120,107 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
     height: 253px;    
 }
 
-#nav .nav-pequeno img 
+#nav .nav-primeiralinha img 
 {
     max-width: 228px;
     float: left;
-    margin: 2px 9px;
+    margin: 12px 9px;
+    border-radius: 5px;
 }
 
-#nav .nav-pequeno p
+#nav .nav-primeiralinha p
 {
     padding: 10px;
     text-align: center;
 }
 
-/*#nav .nav-pequeno a
+#nav .nav-segundalinha 
 {
-    display: block;
-    float: right;
-    width: 84px;
-    border: 1px solid bisque;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    background: bisque;
-    border-radius: 6px;
-    margin: 25px -9px 10px;
-}*/
+    width: 247px;
+    float: left;
+    margin: 1px 2px 8px;
+    height: 253px;    
+}
 
+#nav .nav-segundalinha img 
+{
+    max-width: 228px;
+    float: left;
+    margin: 12px 9px;
+    border-radius: 5px;
+}
+
+#nav .nav-segundalinha p
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#nav .nav-terceiralinha 
+{
+    width: 247px;
+    float: left;
+    margin: 1px 2px 8px;
+    height: 253px;    
+}
+
+#nav .nav-terceiralinha img 
+{
+    max-width: 228px;
+    float: left;
+    margin: 12px 9px;
+    border-radius: 5px;
+}
+
+#nav .nav-terceiralinha p
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#nav .nav-quartalinha 
+{
+    width: 247px;
+    float: left;
+    margin: 1px 2px 8px;
+    height: 253px;    
+}
+
+#nav .nav-quartalinha img
+{
+    max-width: 228px;
+    float: left;
+    margin: 12px 9px;
+    border-radius: 5px;
+}
+
+#nav .nav-quartalinha p
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#nav .nav-quintalinha 
+{
+    width: 247px;
+    float: left;
+    margin: 1px 2px 8px;
+    height: 253px;    
+}
+
+#nav .nav-quintalinha img
+{
+    max-width: 228px;
+    float: left;
+    margin: 12px 9px;
+    border-radius: 5px;
+}
+
+#nav .nav-quintalinha p
+{
+    padding: 10px;
+    text-align: center;
+}
 .nav-pequeno.modal-content span
 {
     font-weight: bold;
@@ -182,7 +255,7 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
 
 p
 {
-    margin: 0px 7px 0px;
+    margin: 0px 57px 0px;
 }
 
 #banner

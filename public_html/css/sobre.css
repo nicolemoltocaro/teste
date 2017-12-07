@@ -97,7 +97,7 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
    width: 750px;
 /*   margin-left: 40px;*/
    padding: 0px;
-   height: 404px
+   height: 400px
 }
 
 #nav #nav-grande img
@@ -105,13 +105,13 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
     max-width: 700px;
     border-radius: 6px;
     float: none;
-    margin: 24px;    
+    margin: 35px;    
 }
 
 #nav #nav-grande p
 {
     text-align: center;
-    padding: 14px;
+    padding: 7px;
 }
 
 #nav #nav-grande a
@@ -119,60 +119,6 @@ body{ background: linear-gradient(to right, #FACFB7 0%,#FAA684 100%); }
     float: right;
 }
 
-#nav .nav-pequeno 
-{
-    border: 17px solid #fff;
-    width: 348px;
-    float: left;
-    margin: 0 15px 8px;
-    height: 312px;
-    
-}
-
-#nav .nav-pequeno img 
-{
-    max-width: 297px;
-    float: left;
-    margin: 15px;
-}
-
-#nav .nav-pequeno p
-{
-    padding: 10px;
-    text-align: justify;
-}
-
-#nav .nav-pequeno a
-{
-    display: block;
-    float: right;
-    width: 84px;
-    border: 1px solid bisque;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    background: bisque;
-    border-radius: 6px;
-    margin: 25px -9px 10px;
-}
-
-#footer 
-{
-    max-width: 780px;
-    margin: 0 auto;
-}
-
-#footer p 
-{
-    text-align: center;
-}
-
-#footer .nav.navbar-nav
-{
-    float:none;
-    padding-top: 15px;
-}
 .container-fluid
 {
     padding-left: 15%;
